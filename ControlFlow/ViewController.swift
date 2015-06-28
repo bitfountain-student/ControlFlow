@@ -20,8 +20,9 @@ class ViewController: UIViewController {
     let lamboSpeed = 120
     var mySpeed:Int
     mySpeed = lamboSpeed
+    var myFriendsSpeed = 90
     
-    if mySpeed < 70 {
+    if mySpeed < 70  && myFriendsSpeed <= 90 {
       label.text = label.text! + "\nKeep Cruising"
       println("Keep Cruising")
     }
